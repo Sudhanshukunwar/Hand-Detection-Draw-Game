@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hand Detection Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Hand Detection Dashboard</h1>
+    <p>Status: <span id="status">Initializing...</span></p>
+    <button id="toggleCam">Turn Camera Off</button>
+  </header>
+
+  <main class="container">
+    <section class="video-container">
+      <video id="video" autoplay playsinline></video>
+      <canvas id="canvas"></canvas>
+      <canvas id="drawCanvas"></canvas> <!-- ✅ Added -->
+    </section>
+
+    <section class="metrics">
+      <h2>Hand Gesture Info</h2>
+      <p>Number of Hands: <span id="handCount">0</span></p>
+      <p>Gesture: <span id="gesture">-</span> <span id="gestureIcon"></span></p>
+
+      <h3>Recent Gestures</h3>
+      <ul id="gestureHistory"></ul>
+
+      <h3>Music Player</h3>
+      <audio id="musicPlayer" controls>
+        <source src="song.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+    </section>
+  </main>
+
+  <!-- Mediapipe + Fingerpose -->
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/fingerpose@0.1.0/dist/fingerpose.min.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>
