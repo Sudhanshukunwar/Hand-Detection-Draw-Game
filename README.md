@@ -11,8 +11,7 @@ Learning purposes
 Experimenting with AI in the browser
 
 Showcasing skills in JavaScript and interactive UI development
-
-🎯 Key Features
+ Key Features
 
 Real-time hand detection using webcam
 
@@ -26,7 +25,7 @@ Runs entirely in the browser
 
 No backend required
 
-🧠 How It Works (Simple Explanation)
+How It Works (Simple Explanation)
 
 The browser asks for webcam permission
 
@@ -40,7 +39,7 @@ Lines are drawn as the finger moves
 
 Everything happens in real time, directly in the browser.
 
-🛠 Technologies Used
+Technologies Used
 
 HTML5 – Structure of the web page
 
@@ -51,8 +50,7 @@ JavaScript (ES6) – Core logic
 HTML5 Canvas – Drawing surface
 
 Hand Tracking Library – For detecting hand and finger landmarks
-
-📁 Project Structure
+ Project Structure
 hand-detection-draw-game/
 │
 ├── index.html        # Main HTML file
@@ -61,7 +59,7 @@ hand-detection-draw-game/
 ├── assets/           # Images / models (if used)
 └── README.md         # Project documentation
 
-▶️ How to Run the Project
+ How to Run the Project
 Method 1: Simple (Recommended)
 
 Download or clone the repository
@@ -85,7 +83,7 @@ Right-click index.html → Open with Live Server
 
 Allow camera access
 
-⚠️ Requirements
+ Requirements
 
 Webcam (built-in or external)
 
@@ -93,15 +91,14 @@ Modern browser (Chrome / Edge / Firefox)
 
 Camera permission enabled
 
-🧪 Tested On
+ Tested On
 
 Google Chrome
 
 Microsoft Edge
 
 Firefox (limited support depending on device)
-
-🎓 Learning Outcomes
+ Learning Outcomes
 
 By building this project, I learned:
 
@@ -117,7 +114,7 @@ Creating interactive web experiences
 
 Combining AI models with frontend code
 
-🚀 Possible Future Enhancements
+Possible Future Enhancements
 
 Gesture-based color selection
 
@@ -131,7 +128,7 @@ Multi-hand support
 
 Mobile device optimization
 
-💡 Why This Project?
+ Why This Project?
 
 I wanted to build something:
 
@@ -145,13 +142,13 @@ Fun to use and easy to understand
 
 This project helped me understand how real-world AI features can be added to simple web applications.
 
-👤 Author
+ Author
 
 Sudhanshu Kunwar 
 IT Engineering Student
 Interested in Frontend Development & Computer Vision
 
-📜 License
+License
 
 This project is open-source and created for educational purposes.
 Feel free to fork, modify, and improve it.
